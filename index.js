@@ -1,3 +1,6 @@
+/*Gifted Tech*/
+
+
 const bot = require(__dirname + '/lib/giftech');
 const { VERSION } = require(__dirname + '/config');
 
@@ -15,5 +18,8 @@ const start = async () => {
 };
 start();
 
-//GIFTED
+//GIFTEDTECH
+
+
+
 
