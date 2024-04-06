@@ -1,5 +1,5 @@
 {
-  "name": "gifted-md",
+  "name": "gifted-md @v.2.5.0",
   "description": "Multi device NodeJs Whatsapp Bot by GiftedTech",
   "logo": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg",
   "keywords": "Gifted",
@@ -28,13 +28,13 @@
     },
     "OWNER_NAME": {
       "description": "Owner Name",
-      "value": "GiftedTech",
+      "value": "Gifted Tech",
       "required": true
     },
 
     "WELCOME": {
       "description": "Welcome Message",
-      "value": "true",
+      "value": "false",
       "required": false
     },
 
@@ -66,7 +66,7 @@
     "READ_COMMAND": {
       "description": "Read Commands",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "WARN_COUNT": {
       "description": "Warn count for users to kick/block when warn limit exceed!",
@@ -95,7 +95,7 @@
     },
     "DISABLE_PM": {
       "description": "Disable bot in pm, Take it false if you wanna run bot in your pm (if MODE is Public)",
-      "value": "false",
+      "value": "true",
       "required": false
     },
     "PREFIX": {
@@ -113,12 +113,12 @@
     },
     "ELEVENLAB_API_KEY": {
       "description": "Put your ElevenLab api key",
-      "value": "",
+      "value": "3e57046161ccf9ac1f4b9e03828a5fe9",
       "required": false
     },
     "REMOVE_BG_KEY": {
       "description": "put your REMOVE BG KEY here",
-      "value": "",
+      "value": "DJwc34NaWmhXmDxEeh6YUEmm",
       "required": false
     },
     "MODE": {
