@@ -47,7 +47,7 @@
     "BOT_NAME": {
       "description": "Bot Name",
       "required": true,
-      "value": "𝗚𝗜𝗙𝗧𝗘𝗗 𝗠𝗗"
+      "value": "ɢɪғᴛᴇᴅ-ᴍᴅ"
     },
     "USER_IMAGES": {
       "description": "Image for Bot",
