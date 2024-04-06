@@ -1,3 +1,12 @@
+/*Gifted Tech*/
+
+
+
+
+
+
+
+
 const fs = require('fs');
 const path = require('path');
 const directoryPath = '../plugins';
@@ -14,4 +23,4 @@ fs.readdir(directoryPath, function (err, files) {
     });
     console.log(`Found ${jsFileCount} .js Files in the Directory.`);
 });
-//GIFTED
+//GIFTEDTECH
