@@ -141,7 +141,7 @@
     { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
   ],
   "formation": {
-    "worker": {
+    "web": {
       "quantity": 1,
       "size": "basic"
     }
