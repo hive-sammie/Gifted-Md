@@ -58,7 +58,7 @@
       "required": false,
       "value": "Africa/Nairobi"
     },
-    "SESSION_RESET": {
+    "SESSION_FLUSH": {
       "description": "If the bot doesn't work after delpoyment",
       "required": false,
       "value": "false"
