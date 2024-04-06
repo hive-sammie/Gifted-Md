@@ -8,7 +8,6 @@
         "run": "pm2 start . --deep-monitoring --attach --name Gifted || node index.js",
         "start": "pm2 start index.js --attach --name Gifted || node index.js",
         "stop": "pm2 stop Gifted",
-
     },
     "author": "GiftedTech",
     "dependencies": {
