@@ -19,7 +19,7 @@
     },
     "SESSION_ID": {
         "description": "put your SESSION_ID here.",
-        "value": ""
+        "value": "",
         "required": true
       },
     "WAPRESENCE": {
@@ -46,53 +46,53 @@
     },
     "BOT_NAME": {
       "description": "Bot Name",
-      "required": true,
-      "value": "𝗚𝗜𝗙𝗧𝗘𝗗 𝗠𝗗"
+      "required": true
+      "value": "𝗚𝗜𝗙𝗧𝗘𝗗 𝗠𝗗",
     },
     "USER_IMAGES": {
       "description": "Image for Bot",
-      "required": true,
+      "required": true
       "value": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg"
     },
     "TZ": {
       "description": "Don't change if you dont know your location.",
-      "required": true,
+      "required": true
       "value": "Africa/Nairobi"
     },
     "SESSION_RESET": {
       "description": "If the bot doesn't work after delpoyment",
-      "required": true,
-      "value": "true"
+      "required": true
+      "value": "true",
     },
     "READ_COMMAND": {
       "description": "Read Commands",
-      "required": true,
-      "value": "true"
+      "required": true
+      "value": "true",
     },
     "WARN_COUNT": {
       "description": "Warn count for users to kick/block when warn limit exceed!",
-      "required": true,
-      "value": "5"
+      "required": true
+      "value": "5",
     },
     "AUTO_SAVE_STATUS": {
       "description": " Auto save whatsapp status",
-      "required": true,
-      "value": "false"
+      "required": true
+      "value": "false",
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
-      "required": true,
-      "value": "true"
+      "required": true
+      "value": "true",
     },
     "MSGS_IN_LOG": {
       "description": "Fill the value true if you want to show Messages in logs.",
-      "required": true,
-      "value": "false"
+      "required": true
+      "value": "false",
     },
     "READ_MESSAGE": {
       "description": "Fill the value true if you want bot to read all messages automatically.",
-      "required": true,
-      "value": "true"
+      "required": true
+      "value": "true",
     },
     "DISABLE_PM": {
       "description": "Disable bot in pm, Take it false if you wanna run bot in your pm (if MODE is Public)",
@@ -101,12 +101,12 @@
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-      "value": "."
+      "value": ".",
       "required": true
     },
     "OWNER_NUMBER": {
       "description": "Owner number or sudo",
-      "value": "254728782591"
+      "value": "254728782591",
     },
     "OPENAI_API_KEY": {
       "description": "put your OPENAI api key here.Get it from beta.openai.com ",
@@ -125,7 +125,7 @@
     },
     "MODE": {
       "description": "Public or Private",
-      "value": "private"
+      "value": "private",
       "required": true
     },
     "PACK_NAME": {
