@@ -1,8 +1,8 @@
 {
-  "name": "Gifted-Md",
-  "description": "Multi device NodeJs Whatsapp Bot by GiftedTech. Incase of Any Problem Whatsapp me on: +254728782591",
+  "name": "gifted-md",
+  "description": "Multi device NodeJs Whatsapp Bot by GiftedTech",
   "logo": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg",
-  "keywords": ["giftedMd"],
+  "keywords": "Gifted",
   "success_url": "/gifted/",
   "app_url": "/qr/",
 
@@ -19,94 +19,92 @@
     },
     "SESSION_ID": {
         "description": "put your SESSION_ID here.",
-        "value": "",
-        "required": true
+        "value": ""
       },
     "WAPRESENCE": {
-      "description": "Fill the value: unavailable(for nothing) | available(for alwaysonline) | composing(for typing) | recording | paused ",
-      "required": true,
+      "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
+      "required": false,
       "value": "online"
     },
     "OWNER_NAME": {
       "description": "Owner Name",
-      "value": "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
+      "value": "GiftedTech",
       "required": true
     },
 
     "WELCOME": {
       "description": "Welcome Message",
-      "value": "false",
-      "required": true
+      "value": "true",
+      "required": false
     },
 
     "GOODBYE": {
       "description": "Goodbye Message",
       "value": "false",
-      "required": true
+      "required": false
     },
     "BOT_NAME": {
       "description": "Bot Name",
-      "required": true
-      "value": "𝗚𝗜𝗙𝗧𝗘𝗗 𝗠𝗗",
+      "required": false,
+      "value": "ɢɪғᴛᴇᴅ-ᴍᴅ"
     },
     "USER_IMAGES": {
-      "description": "Image for Bot",
-      "required": true
+      "description": "Image for bot",
+      "required": false,
       "value": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg"
     },
     "TZ": {
       "description": "Don't change if you dont know your location.",
-      "required": true
+      "required": false,
       "value": "Africa/Nairobi"
     },
     "SESSION_RESET": {
       "description": "If the bot doesn't work after delpoyment",
-      "required": true
-      "value": "true",
+      "required": false,
+      "value": "false"
     },
     "READ_COMMAND": {
       "description": "Read Commands",
-      "required": true
-      "value": "true",
+      "required": false,
+      "value": "false"
     },
     "WARN_COUNT": {
       "description": "Warn count for users to kick/block when warn limit exceed!",
-      "required": true
-      "value": "5",
+      "required": false,
+      "value": "5"
     },
     "AUTO_SAVE_STATUS": {
       "description": " Auto save whatsapp status",
-      "required": true
-      "value": "false",
+      "required": false,
+      "value": "false"
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
-      "required": true
-      "value": "true",
+      "required": false,
+      "value": "true"
     },
     "MSGS_IN_LOG": {
-      "description": "Fill the value true if you want to show Messages in logs.",
-      "required": true
-      "value": "false",
+      "description": "Fill the value -true- if you want to see Messages in logs.",
+      "required": false,
+      "value": "false"
     },
     "READ_MESSAGE": {
-      "description": "Fill the value true if you want bot to read all messages automatically.",
-      "required": true
-      "value": "true",
+      "description": "Fill the value true if you want bot to read all messages.",
+      "required": false,
+      "value": "false"
     },
     "DISABLE_PM": {
       "description": "Disable bot in pm, Take it false if you wanna run bot in your pm (if MODE is Public)",
-      "value": "true",
-      "required": true
+      "value": "false",
+      "required": false
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-      "value": ".",
-      "required": true
+      "value": "."
     },
     "OWNER_NUMBER": {
       "description": "Owner number or sudo",
-      "value": "254728782591",
+      "value": "254728782591"
     },
     "OPENAI_API_KEY": {
       "description": "put your OPENAI api key here.Get it from beta.openai.com ",
@@ -115,41 +113,35 @@
     },
     "ELEVENLAB_API_KEY": {
       "description": "Put your ElevenLab api key",
-      "value": "3e57046161ccf9ac1f4b9e03828a5fe9",
-      "required": true
+      "value": "",
+      "required": false
     },
     "REMOVE_BG_KEY": {
       "description": "put your REMOVE BG KEY here",
-      "value": "DJwc34NaWmhXmDxEeh6YUEmm",
-      "required": true
+      "value": "",
+      "required": false
     },
     "MODE": {
       "description": "Public or Private",
-      "value": "private",
-      "required": true
+      "value": "private"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
       "value": "Gifted Md",
-      "required": true
+      "required": false
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
       "value": "Gifted Tech",
-      "required": true
-    },
-    "STACK": {
-      "description": "STACK NAME ",
-      "value": "container | heroku-22 | 4246315815290786|01|2026|717",
       "required": false
-  }
+    }
   },
   "buildpacks": [
     { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
     { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
   ],
   "formation": {
-    "web": {
+    "worker": {
       "quantity": 1,
       "size": "basic"
     }
