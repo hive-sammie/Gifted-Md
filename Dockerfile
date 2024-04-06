@@ -1,3 +1,5 @@
+/*Gifted Tech*/
+
 FROM node:16
 RUN git clone https://github.com/giftedtechnexus/Gifted-Md /root/Gifted
 WORKDIR /root/Gifted
