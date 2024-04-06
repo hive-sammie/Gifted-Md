@@ -2,9 +2,9 @@
   "name": "Gifted-Md",
   "description": "Multi device NodeJs Whatsapp Bot by GiftedTech.\n\t Incase of Any Problem Whatsapp me on: +254728782591",
   "logo": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg",
-  "keywords": ["giftedMd"],
-  "success_url": "/gifted",
-  "app_url": "/qr",
+  "keywords": "giftedMd",
+  "success_url": "/gifted/",
+  "app_url": "/qr/",
 
   "env": {
     "HEROKU_API_KEY": {
