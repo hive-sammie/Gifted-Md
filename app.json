@@ -23,7 +23,7 @@
         "required": true
       },
     "WAPRESENCE": {
-      "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
+      "description": "Fill the value: unavailable(for nothing) | available(for alwaysonline) | composing(for typing) | recording | paused ",
       "required": true,
       "value": "online"
     },
