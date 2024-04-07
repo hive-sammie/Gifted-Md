@@ -3,7 +3,7 @@
   "description": "Multi device NodeJs Whatsapp Bot by GiftedTech",
   "logo": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg",
   "keywords": "Gifted",
-  "success_url": "/",
+  "success_url": "",
   "app_url": "/qr/",
 
   "env": {
